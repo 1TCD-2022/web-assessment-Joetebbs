@@ -1,0 +1,89 @@
+.wrapper{
+   display:grid;
+   grid-template-columns:1fr 2fr 1fr;
+   grid-template-rows: 1fr 1fr 4fr 1fr;
+   grid-template-areas:
+		"header header header"
+		"nav nav nav"
+		"main main aside"
+		"footer footer footer";
+   grid-gap:4px;
+}
+.box{
+	border:solid 4px #705342;   /* set borders to black */
+	padding:20px;
+	background-color:#2e5f83;  /* background colour light green */
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+ 
+.grid_header;
+	grid-area: header;
+	background-image: url("./images/Background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; ,
+body {
+	font-family: Sans-serif;
+	text-align: left;
+}
+ul {list-style:none
+}
+ul li {
+	padding:20px:
+	display:inline-block:
+}
+a {
+  color: green;
+}
+img {
+  float: right;
+}
+.grid_header{
+	grid-area: header;
+}
+.grid_nav{
+	grid-area: nav;
+	background-color:#e5d6ba; 
+}
+.grid_main{
+	grid-area: main;
+}
+.grid_side{
+	grid-area: aside;
+}
+.grid_footer{
+	grid-area: footer;
+}
+li {
+	color:  green;
+}
+th, td {
+		
+  border: px solid black;
+  border-radius: 10px;
+}
+th, td {
+  background-color: #2e5f83;
+}
+ th, td {
+  border-color: #705342;
+}
